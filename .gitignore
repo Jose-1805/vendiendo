@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+/public/img
+/public/ckeditor
+/public/ckeditor_basic
+/public/fullcalendar
+/public/materialize
+.env
+.idea/

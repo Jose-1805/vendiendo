@@ -1,0 +1,75 @@
+.usuario{
+    cursor: move;
+    /*left: 0 !important;
+    top: 0 !important;*/
+}
+
+.destino .usuario{
+}
+
+.active-class{
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+.leftTop{
+    left: 0px !important;
+    top: 0px !important;
+}
+
+@keyframes slidein {
+    0% {
+        background-color: #FFF;
+    }
+
+    30% {
+        background-color: rgba(40, 159, 16, 0.1);
+    }
+
+    50% {
+        background-color: rgba(40, 159, 16, 0.1);
+    }
+
+    100% {
+        background-color: #FFF;
+    }
+}
+
+.lista-elementos{
+    background-color: #FFF;
+    width: 100%;
+    position: relative;
+    min-height: 40px;
+}
+
+.lista-elementos li{
+    background-color: #FFF;
+    border: 1px solid rgba(224, 224, 224, 1);
+    padding: 5px 20px;
+    min-height: 48px !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.lista-elementos li:hover{
+    background-color: rgba(246, 246, 246, 0.61);
+}
+
+.lista-elementos li .usuario{
+    margin-top: 5px;
+}
+
+.lista-elementos .avatar{
+    font-size: 17px;
+    padding: 0px;
+    color: #FFF;
+    width: 35px !important;
+    height: 35px !important;
+    text-align: center;
+    line-height: 35px;
+}
+
+.asignado{
+    background-color: rgba(102, 102, 102, 0.3) !important;
+}

@@ -1,0 +1,40 @@
+.contenedor-check{
+    margin-bottom: -20px !important;
+}
+
+.contenedor-check label{
+    padding-left: 25px !important;
+    margin-left: 10px;
+}
+
+.controlador-lista{
+    cursor: pointer;
+    font-size: 20px !important;
+}
+.controlador-lista-disabled{
+    font-size: 9px !important;
+}
+
+.contenedor-check-nivel-2{
+    margin-left: 25px !important;
+}
+
+.contenedor-check-nivel-3{
+    margin-left: 50px !important;
+}
+
+.contenedor-lista-nivel-2,.contenedor-lista-nivel-3{
+    padding: 7px 0px !important;
+}
+
+#contenedor-lista-check-modulos{
+    /*max-height: 400px;
+    overflow-y: auto;*/
+}
+
+#contenedor-lista-check-modulos li{
+    display: block;
+}
+#contenedor-lista-check-modulos .collapsible-body p{
+    padding: 12px;
+}

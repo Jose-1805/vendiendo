@@ -1,0 +1,24 @@
+#contenedor-teclado-numerico{
+}
+
+#teclado-numerico{
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    padding: 10px 5px;
+    display: none;
+}
+
+.btn-numero span,.btn-opcion{
+    width: 32px;
+    height: 32px;
+    line-height: 32px !important;
+    color: #FFF;
+    margin: 2px !important;
+    cursor: pointer;
+}
+
+.btn-opcion{
+    font-size: large !important;
+}

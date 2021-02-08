@@ -1,0 +1,260 @@
+#encabezado{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0px;
+}
+
+#buscar{
+    margin-bottom: 5px !important;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+#icon-buscar{
+    float: right;
+    line-height: 0px;
+    margin-top: -28px;
+}
+
+#buscar:focus{
+    border-bottom: 1px solid #FFF;
+}
+
+#contenedo-botones-tipo-vista{
+    background-color: rgba(255,255,255,0.3);
+    height: 50px;
+    padding-top: 12px;
+}
+
+#contenedo-botones-tipo-vista a{
+    color: #FFF;
+    margin: 2px;
+    font-size: large;
+}
+
+.tabs{
+    white-space: inherit;
+}
+.tabs .indicator{
+    background-color: rgba(255,255,255,.2) !important;
+    height: 100%;
+    top: 2px;
+}
+.tabs .tab{
+    min-width: 120px;
+    cursor: pointer !important;
+}
+
+.tabs .tab a{
+    color: #FFF !important;
+}
+
+.tabs::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #676767;
+}
+
+.tabs::-webkit-scrollbar
+{
+    width: 3px !important;
+    height: 3px !important;
+    background-color: #FFF;
+}
+
+.tabs::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,.9);
+    background-color: #FFf;
+}
+
+.elemento{
+    padding: 5px 10px !important;
+}
+
+.elemento .card{
+    padding: 10px 5px !important;
+}
+
+.info-producto{
+    overflow-wrap: break-word;
+    padding: 5px 0px 0px 10px;
+    color: grey;
+    width:100%;
+    line-height: 16px;
+}
+
+.contenedor-img-producto{
+    padding: 20px;
+}
+
+.logo-vendiendo-elemento{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    color:white;
+    padding: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: solid white 2px;
+    margin-top: -45px;
+    box-shadow: 0px 15px 12px -10px rgba(2, 2, 2, 0.5);
+    -webkit-box-shadow: 0px 15px 12px -10px rgba(2, 2, 2, 0.5);
+    -moz-box-shadow: 0px 15px 12px -10px rgba(2, 2, 2, 0.5);
+}
+.botones-elemento{
+    border-radius: 40px;
+    cursor: pointer;
+    border: solid white 2px;
+    padding: 0px;
+}
+
+.botones-elemento .menos{
+    /*left: 5px !important;*/
+    border-radius: 40px;
+    /*padding-left: 10px !important;*/
+}
+
+.botones-elemento .mas span,.botones-elemento .menos span{
+    line-height: 21px !important;
+}
+
+.botones-elemento .mas{
+    /*right: 5px !important;*/
+    border-radius: 40px;
+    /*padding-right: 10px !important;*/
+}
+
+#lista-pedido{
+    border-bottom: 1px solid rgba(0,0,0,.02);
+    border-top: 1px solid rgba(0,0,0,.02);
+    padding: 0px !important;
+    margin: 0px !important;
+    background: url("../img/sistema/LogoVendiendo.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#lista-pedido ul.collection{
+    min-height: 100%;
+    background-color: rgba(255,255,255,.95) !important;
+    border: 1px solid rgba(0,0,0,.02);
+}
+
+.item-lista-pedido i.circle{
+    left: 3px !important;
+    height: 40px !important;
+    width: 40px !important;
+    line-height: 40px !important;
+}
+
+.item-lista-pedido i.circle span{
+    font-size: large;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.item-lista-pedido span.title{
+    padding-left: 25px;
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: small !important;
+}
+
+.item-lista-pedido a{
+    top: 12px !important;
+    right: 8px !important;
+}
+
+.item-lista-pedido{
+    min-height: 60px !important;
+    background-color: transparent !important;
+}
+
+#contenedor-datos-precios .total{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#ul-cliente li{
+    min-height: 55px !important;
+}
+
+#ul-cliente .collection-item.avatar .circle{
+    left: 5px !important;
+}
+
+#ul-cliente li p{
+    margin: 0px !important;
+    padding: 0px !important;
+    line-height: 15px !important;
+    margin-left: 30px !important;
+}
+
+.contenido-elemento{
+    position: relative;
+    z-index: 1;
+}
+
+.agotado{
+    position: relative;
+    z-index: 2;
+    cursor: no-drop;
+    background-color: rgba(0,0,0,.6);
+}
+.agotado p{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,1);
+    font-size: x-large;
+}
+
+#contenido-buscar{
+    position: fixed;
+    height: auto;
+    right: 22px;
+    display: none;
+    max-height: 80% !important;
+    background-color: rgba(255,255,255,1);
+    padding: 0px;
+    border-radius: 0px !important;
+}
+
+.elemento-buscar{
+    margin: 0px !important;
+    padding: 5px 10px;
+    cursor: default;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.elemento-buscar:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+.elemento-buscar p{
+    margin: 0px !important;
+}
+.elemento-buscar p span.mas-buscar,.elemento-buscar p span.menos-buscar{
+    width:20px;
+    height:20px;
+    font-size: large;
+    margin: 0px 5px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.elemento-buscar p span.cantidad-buscar{
+    width:27px;
+    height:27px;
+    font-size: large;
+    margin: 0px 5px;
+    line-height: 27px;
+    cursor: default;
+}

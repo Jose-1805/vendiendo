@@ -1,0 +1,28 @@
+.contenedor-metro-principal{
+    position: relative;
+    background-color: trasnparent;
+    min-height: 80%;
+    height: auto !important;
+    margin-top: 5%;
+    padding: 0px !important;
+    overflow: hidden;
+    /*overflow-y: auto !important;*/
+}
+
+.contenedor-metro-principal .titulo-seccion{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 200 !important;
+}
+
+.live-tile div .img-logo-tile{
+    width: 70px !important;
+    height: 70px !important;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.live-tile div i{
+    font-size: 3rem !important;
+    margin-top: 25px;
+}

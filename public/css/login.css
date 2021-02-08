@@ -1,0 +1,240 @@
+body{
+	background-image: url("../img/sistema/RenderLogoOro.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.contenedor-inicio-sesion{
+	background-image: url("../img/sistema/FondoLogin.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+	margin-top: 30px !important;
+	/*margin-left: 471px !important;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px !important;
+	width: 400px;
+}
+.contenedor-form{
+	background-color: transparent;
+	height: 600px;
+	padding: 0px 60px !important;
+	padding-top: 270px !important;
+}
+.contenedor-form img{
+	margin-bottom: 30px !important;
+}
+
+.contenedor-form i{
+	font-size: 25px !important;
+	line-height: 40px;
+}
+
+.contenedor-boton-inicio{
+	margin-top: 15px !important;
+}
+/******************************************
+    MENSAJES DE ERRORES Y VALIDACIÓN
+******************************************/
+.contenedor-errores{
+	font-size: small;
+	color: #8b1014;
+	font-weight: 500;
+	padding-left: 25px !important;
+	margin: 15px 0px !important;
+	background-color: rgba(255,0,30,.1);
+}
+.contenedor-errores ul{
+	margin-top: 12px !important;
+}
+.contenedor-errores ul li{
+	list-style: disc !important;
+}
+.contenedor-errores i.btn-cerrar-errores{
+	font-size: 15px !important;
+	cursor: pointer;
+	line-height: 40px !important;
+	float: right !important;
+
+}
+/******************************************
+         MENSAJES DE CONFIRMACIÓN
+******************************************/
+.contenedor-confirmacion{
+	font-size: small;
+	color: #238b37;
+	font-weight: 500;
+	padding-left: 25px !important;
+	margin: 15px 0px !important;
+	background-color: rgba(0,255,30,.1);
+}
+.contenedor-confirmacion ul{
+	margin-top: 12px !important;
+}
+.contenedor-confirmacion ul li{
+	list-style: disc !important;
+}
+.contenedor-confirmacion i.btn-cerrar-confirmacion{
+	font-size: 15px !important;
+	cursor: pointer;
+	line-height: 40px !important;
+	float: right !important;
+}
+/******************************************
+        REESTABLACER PASSWORD FORM - ENVIO EMAIL
+******************************************/
+.contenedor-reestablecer-password-email{
+	background-image: url("../img/sistema/FondoLogin.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	width: 400px;
+	margin: 0 auto !important;
+	margin-top: 30px !important;
+}
+.contenedor-form-email{
+	background-color: transparent;
+	height: 600px;
+	padding: 0px 60px !important;
+	padding-top: 290px !important;
+}
+.contenedor-form-email i{
+	font-size: 25px !important;
+	line-height: 40px;
+}
+.contenedor-form-email p{
+	font-size: 18px !important;
+}
+.contenedor-botones-reestablecer-password{
+	margin-top: 82px; !important;
+}
+/******************************************
+        REESTABLACER PASSWORD FORM - CONFIRMAR
+******************************************/
+.contenedor-reestablecer-password-confirm{
+	background-image: url("../img/sistema/FondoLogin.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	margin-top: 30px !important;
+	margin-left: 471px !important;
+	width: 400px;
+}
+.contenedor-form-confirm{
+	background-color: transparent;
+	height: 600px;
+	padding: 0px 60px !important;
+	padding-top: 230px !important;
+}
+.contenedor-botones-reestablecer-confirm{
+	margin-top: 30px; !important;
+}
+.input-confirm-reset{
+	margin: 1px auto !important;
+}
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+	body {
+		background-image: url("../img/sistema/RenderLogoSoloOro.png");
+		background-size: auto 100%;
+		background-color: rgb(235, 234, 242);
+	}
+	.contenedor-inicio-sesion{
+		margin-left: 440px !important;
+	}
+	#btn-inicio-sesion{
+		margin-top: 40px !important;
+	}
+	.contenedor-reestablecer-password-email{
+		margin-left: 440px !important;
+	}
+	#btn-reestablecer-password{
+		margin-top: 10px !important;
+	}
+	.contenedor-reestablecer-password-confirm{
+		margin-left: 440px !important;
+	}
+	#btn-form-action-reset{
+		margin-top: 20px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	body {
+		background-image: url("../img/sistema/RenderLogoSoloOro.png");
+		background-size: auto 100%;
+		background-color: rgb(235, 234, 242);
+	}
+	.contenedor-inicio-sesion{
+		margin-left: 340px !important;
+	}
+	#btn-inicio-sesion{
+		margin-top: 40px !important;
+	}
+	.contenedor-reestablecer-password-email{
+		margin-left: 340px !important;
+	}
+	#btn-reestablecer-password{
+		margin-top: 15px !important;
+	}
+	.contenedor-reestablecer-password-confirm{
+		margin-left: 340px !important;
+	}
+	#btn-form-action-reset{
+		margin-top: 25px !important;
+	}
+}
+@media only screen and (min-width: 415px) and (max-width: 767px) {
+	body {
+		background-image: url("../img/sistema/RenderLogoSoloOro.png");
+		background-size: auto;
+		background-color: rgb(235, 234, 242);
+	}
+	.contenedor-inicio-sesion{
+		margin-left: auto !important;
+	}
+	#btn-inicio-sesion{
+		margin-top: 40px !important;
+	}
+	.contenedor-reestablecer-password-email{
+		margin: auto !important;
+	}
+	#btn-reestablecer-password{
+		margin-top: 10px !important;
+	}
+	.contenedor-reestablecer-password-confirm{
+		margin: auto !important;
+	}
+	#btn-form-action-reset{
+		margin-top: 20px !important;
+	}
+}
+@media only screen and (min-width: 214px) and (max-width: 414px) {
+	body {
+		background-image: url("../img/sistema/RenderLogoSoloOro.png");
+		background-size: auto;
+		background-color: rgb(235, 234, 242);
+	}
+	.contenedor-inicio-sesion {
+		margin-left: 5px !important;
+		width: 98% !important;
+	}
+	#btn-inicio-sesion{
+		margin-top: 45px !important;
+	}
+	.contenedor-reestablecer-password-email{
+		margin-left: 5px !important;
+		width: 98% !important;
+	}
+	#btn-reestablecer-password{
+		margin-top: 15px !important;
+	}
+	.contenedor-reestablecer-password-confirm{
+		margin-left: 5px !important;
+		width: 98% !important;
+	}
+	#btn-form-action-reset{
+		margin-top: 25px !important;
+	}
+	.copyright{
+		margin-left: 70px;
+	}
+}

@@ -1,0 +1,11 @@
+.trigger-modal-admin-modulo{
+    min-height: 50px !important;
+}
+.trigger-modal-admin-modulo:hover{
+    background-color: rgba(190,190,190,.2);
+    cursor: pointer;
+}
+
+.trigger-modal-admin-modulo p{
+    font-size: small;
+}
